@@ -1,0 +1,4 @@
+module CxxTest {
+  header "calculatevelocities_entrypoint.h"
+  requires cplusplus
+}
