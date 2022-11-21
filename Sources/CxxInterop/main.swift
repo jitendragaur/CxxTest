@@ -1,9 +1,8 @@
 import CxxTest
 
 public struct CxxInterop {
-
         
-    func test() {
+    public static func test() {
         var acceleration: [CDouble] = [ 1, 2, 3, 4, 5 ]
         var gravity: [CDouble] = [ 1, 2, 3, 4, 5 ]
         var attitude: [CDouble] = [ 1, 2, 3, 4, 5 ]
@@ -33,6 +32,12 @@ public struct CxxInterop {
         print(raisingVelocities)
     }
 }
+
+CxxInterop.test()
+
+print("Hello")
+
+
 
 
 

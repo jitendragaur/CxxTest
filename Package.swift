@@ -6,7 +6,7 @@ import Foundation
 
 let package = Package(
     name: "StancePackage",
-    platforms: [.macOS(.v12)],
+    platforms: [.macOS(.v12), .iOS(.v13)],
     products: [
 //        .library(
 //            name: "CxxTest",
